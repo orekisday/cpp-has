@@ -48,8 +48,8 @@ int main() {
         }
     }
     
-    for (int i = 0; i < 6; i++) {
-        for (int j = 0; j < 8; j++) {
+    for (int i = 0; i < x; i++) {
+        for (int j = 0; j < y; j++) {
             cout << nums[i][j] << ' ';
         }
         cout << endl;
