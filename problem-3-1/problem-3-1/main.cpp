@@ -24,7 +24,7 @@ int main() {
     int** nums = new int* [x];
     
     for (int i = 0; i < x; i++) {
-        nums[i] = new int[x];
+        nums[i] = new int[y];
     }
     
     for (int i = 0; i < x; i++) {
